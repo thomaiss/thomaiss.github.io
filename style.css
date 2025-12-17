@@ -1,0 +1,129 @@
+@font-face {
+  font-family: face;
+  src: url(/fonts/PIXEARG_.TTF);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* write css code here */
+
+body {
+  background-image: url(images/sutble\ cone1.png);
+  background-size:75%;
+  image-rendering:crisp-edges;
+  image-rendering:pixelated;
+}
+
+h1 {
+  color: #5c5c5c;
+  font-family: face, Arial, Helvetica, sans-serif;
+  text-align:center;
+  font-weight: normal;
+  font-size: 40px;
+}
+
+h2 {
+  color: #5c5c5c;
+  font-family: face, Arial, Helvetica, sans-serif;
+  text-align:center;
+  font-weight: normal;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+p{
+  color: #5c5c5c;
+  font-family: face, Arial, Helvetica, sans-serif;
+  padding-left: 25px;
+}
+
+.centre {
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 0;
+}
+
+.conePfp {
+  height: 100px;
+  width: 100px;
+  image-rendering:crisp-edges;
+  image-rendering:pixelated;
+}
+
+.row {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  gap:0px;
+}
+
+ul {
+  font-family: face, Arial, Helvetica, sans-serif;
+  color: #5c5c5c;
+  font-size: 25px;
+  list-style-type: none;
+  margin-left: 75px;
+  margin-right: 75px;
+  padding: 0;
+  background-color: #fff8ef;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #5c5c5c;
+}
+
+ul li a:hover {
+  background-color: #ffefdb;
+}
+
+.main {
+  background-color: #ffffff;
+  margin-top: 25px;
+  margin-left: 75px;
+  margin-right: 75px;
+  padding-bottom: 10px;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:baseline;
+  align-items: center;
+  margin-left: 25px;
+  gap: 0px 50px;
+
+}
+
+.projroad {
+  height: 200px;
+  width: 200px;
+}
+
+.poo {
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 25px;
+}
+
+.project2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:baseline;
+  align-items: center;
+  margin-left: 25px;
+  gap: 0px 50px;
+  padding-top: 30px;
+}
+
+footer {
+  padding-top: 25px;
+  text-align: center;
+  padding-bottom: 25px;
+}
