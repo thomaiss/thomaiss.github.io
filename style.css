@@ -41,19 +41,18 @@ h5 {
   font-weight: normal;
   font-size: 15px;
   padding-top: 10px;
-  padding-left: 0px;
 }
 
 p{
   color: #5c5c5c;
   font-family: face, Arial, Helvetica, sans-serif;
-  padding-left: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .centre {
   text-align: center;
   padding-top: 10px;
-  padding-left: 0;
 }
 
 .conePfp {
@@ -116,6 +115,7 @@ ul li a:hover {
   align-items: center;
   margin-left: 25px;
   gap: 0px 50px;
+  border-bottom:#5c5c5c dotted;
 }
 
 .title {
@@ -124,14 +124,15 @@ ul li a:hover {
 }
 
 .projroad {
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
 }
 
 .poo {
 padding-top: 10px;
 padding-bottom: 10px;
 padding-right: 25px;
+width: 100%;
 }
 
 .project2 {
@@ -139,13 +140,30 @@ padding-right: 25px;
   flex-wrap: wrap;
   justify-content:baseline;
   align-items: center;
-  margin-left: 25px;
+  margin: 25px;
   gap: 0px 50px;
   padding-top: 30px;
+  border-bottom:#5c5c5c dotted;
 }
 
 footer {
   padding-top: 25px;
   text-align: center;
   padding-bottom: 25px;
+}
+
+.modeldim {
+  height: 500px;
+  width: 500px;
+}
+
+.modelproject {
+  margin: 25px;
+  border-bottom:#5c5c5c dotted;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0px 50px;
 }
